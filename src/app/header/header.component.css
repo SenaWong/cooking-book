@@ -1,0 +1,100 @@
+div.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+div.header-top {
+    background: linear-gradient(to right, #000 , #200, #000);
+    min-width: 980px;
+}
+
+div.header {
+    height: 100px;
+}
+
+img.logo {
+    max-height: 80px;
+    padding: 10px 0;
+    float: left;
+}
+
+div.register {
+    float: right;
+    width: 180px;
+}
+
+button.register {
+    margin: 20px;
+    padding: 10px;
+    font: bold 24px arial;
+    background: #FFF403;
+    background: linear-gradient(-20deg, #FF8103, #fff403);
+    border-radius: 3px;
+    border: 1px solid yellow;
+    cursor: pointer;
+    box-shadow: 0 0 6px #fff;
+}
+
+button.register:hover {
+    background: linear-gradient(-5deg, #FF6203, #fff403);
+}
+
+button.register:active {
+    margin: 24px;
+    padding: 10px;
+    font: bold 22px arial;
+    color: #444;
+    background: linear-gradient(-5deg, #FE9A2E, #F3F781);
+    box-shadow: 0 0 50px #fff;
+}
+
+table.header-contact {
+    float: right;
+    padding: 20px;
+}
+
+img.contact-logo {
+    position: relative;
+    top: 5px;
+    width: 89px;
+    height: 20px;
+
+}
+
+td.header-contact-label {
+    text-align: right;
+    padding: 0 5px;
+    font: 12px arial;
+    color: #fff;
+}
+
+td.header-contact-phone {
+    text-align: left;
+    padding: 2px 5px;
+}
+
+
+a.header-contact-phone {
+    font: bold 20px arial;
+    color: #0f0;
+}
+
+a.header-contact-phone:hover {
+    text-decoration: underline;
+}
+
+td.header-contact-wechat {
+    text-align: left;
+    padding: 2px 5px;
+    font: bold 14px arial;
+    color: #0f0;
+}
+
+ul.header-contact {
+    list-style-type: none;
+}
+
+li.header-contact {
+    display: inline;
+    padding: 3px;
+}

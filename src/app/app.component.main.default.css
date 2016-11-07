@@ -1,0 +1,123 @@
+* {
+    font-size: 12px;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: red; 
+    background: -webkit-radial-gradient(#c00, #000); 
+    background: -o-radial-gradient(#c00, #000); 
+    background: -moz-radial-gradient(#c00, #000); 
+    background: radial-gradient(#c00, #000); 
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+ul.nav {list-style-type: none;}
+li.nav {display: inline;padding-right: 10px;}
+
+.link:hover{color:#ff0}
+
+.b {font-weight: bold}
+.i {font-style: italic}
+.u {text-decoration: underline}
+
+.left {float:left}
+.right {float:right}
+
+.tleft {text-align:left}
+.tright {text-align:right}
+.tcenter {text-align:center}
+
+.bg-f {background-color: #fff}
+.bg-0 {background-color: #000}
+.bg-r {background-color: #ff0000}
+.bg-g {background-color: #00ff00}
+.bg-b {background-color: #0080ff}
+.bg-y {background-color: #ffff00}
+.bg-o {background-color: #ffa500}
+.bg-p {background-color: #bf00ff}    /** purple **/
+.bg-m {background-color: #ff00ff}    /** magenta pink **/
+.bg-bl {background-color: #00bfff}
+
+.fc-f {color: #fff}
+.fc-0 {color: #000}
+.fc-r {color: #ff0000}
+.fc-g {color: #00ff00}
+.fc-b {color: #0080ff}
+.fc-y {color: #ffff00}
+.fc-o {color: #ffa500}
+.fc-p {color: #bf00ff}    /** purple **/
+.fc-m {color: #ff00ff}    /** magenta pink **/
+.fc-bl {color: #00bfff}
+
+.fs-8 {font-size: 8px}
+.fs-10 {font-size: 10px}
+.fs-12 {font-size: 12px}
+.fs-14 {font-size: 14px}
+.fs-16 {font-size: 16px}
+.fs-18 {font-size: 18px}
+.fs-20 {font-size: 20px}
+.fs-22 {font-size: 22px}
+.fs-24 {font-size: 24px}
+
+
+.btn {
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.btn-disable {
+    cursor: not-allowed;
+    background: #aaa;
+    color: #555;
+}
+
+.btn-green {
+    background: #04B404;
+    background: linear-gradient(to bottom,#04B404 10%,#088A08 90%);
+}
+
+.btn-green:hover {
+    background: #088A08;
+    background: linear-gradient(to bottom,#088A08 10%,#298A08 90%);
+}
+
+.btn-red {
+    background: #FE2E2E;
+    background: linear-gradient(to bottom,#FA5858 10%,#DF0101 90%);
+}
+
+
+.btn-red:hover {
+    background: #DF0101;
+    background: linear-gradient(to bottom,#B40404 10%,#DF0101 90%);
+}
+
+
+.btn-blue {
+    background: #006edb;
+    background: linear-gradient(to bottom,#0076ea 10%,#005ebd 90%);
+}
+
+.btn-blue:hover {
+    background: #004690;
+    background: linear-gradient(to bottom,#005ebd 10%,#0056ae 90%);
+}
+
+.btn-yellow {
+    background: #FFFF00;
+    background: linear-gradient(to bottom,#FFFF00 10% ,#FFBF00 90%);
+}
+
+.btn-yellow:hover {
+    background: #FFEF44;
+    background: linear-gradient(to bottom,#FFEF44 10%, #FFCF00 90%);
+    
+}
+
