@@ -171,3 +171,40 @@ span.new {
     border-radius: 0px;
     border: 1px solid red;
 }
+
+i.check {
+    color: #0a0;
+    margin: 0 8px 0 0;
+}
+
+i.close {
+    color: #a00;
+    margin: 0 8px 0 0;
+}
+
+div.announcement {
+    background: #eee;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: -1;
+    color: #433;
+}
+
+#date_time {
+    font: bold 11px arial;
+}
+
+div.date_time {
+    float: right;
+    padding: 4px 10px;
+}
+
+div.announcement-msg {
+    width: 700px;
+    height: 20px;
+    background: #222;
+    border-radius: 5px;
+}

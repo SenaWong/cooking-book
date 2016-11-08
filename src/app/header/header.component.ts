@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TimeComponent } from '../time/time.component';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,7 @@ export class HeaderComponent implements OnInit {
   register(){
     window.open("register.html", "register", "toolbar=yes,scrollbars=yes,resizable=yes,top=0,left=0,width=400,height=550");
   }
+
   constructor() { 
   }
 
