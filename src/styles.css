@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #000 url("./img/bg.jpg") no-repeat top center; ;
+}
+
+		.marquee {
+			width: 680px;
+                        color: #F9EEB0;
+                        font: 11px arial;
+			margin: 0 auto;
+                        padding: 4px 0;
+			overflow: hidden;
+			white-space: nowrap;
+			box-sizing: border-box;
+			animation: marquee 30s linear infinite;
+		}
+
+		.marquee:hover {
+			animation-play-state: paused;
+		}
+
+
+		@keyframes marquee {
+			0%   { text-indent: 650px; }
+			100% { text-indent: -650px; }
+		}
