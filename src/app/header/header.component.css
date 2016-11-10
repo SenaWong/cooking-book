@@ -4,7 +4,7 @@ div.container {
 }
 
 div.header-top {
-    background: linear-gradient(to right, #000 , #200, #000);
+    background:linear-gradient(to right, #000 , #200, #000);
     min-width: 980px;
 }
 
@@ -208,3 +208,5 @@ div.announcement-msg {
     background: #222;
     border-radius: 5px;
 }
+
+ 

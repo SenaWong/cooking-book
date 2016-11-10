@@ -1,0 +1,46 @@
+div.contact {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 550px;
+    border-radius: 3px;
+}
+
+h1.contact {
+    font: bold 16px arial;
+    margin: 20px 0;
+}
+
+h2.contact {
+    font: bold 12px arial;
+    margin: 10px 0;
+}
+
+p.contact {
+    font: 11px arial;
+    margin: 10px 0;
+}
+
+div.contact-i {
+    float: right;
+    background: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+table.contact-i {
+    width: 300px;
+}
+
+td.contact-icon {
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+td.contact-i {
+    padding: 5px;
+    font: bold 14px verdana, arial;
+}
