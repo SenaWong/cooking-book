@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -18,6 +18,9 @@ import { DownloadComponent } from './download/download.component';
 import { SunCityComponent } from './sun-city/sun-city.component';
 import { Win8Component } from './3win8/3win8.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { RegisterComponent } from './register/register.component';
+import { HttpService } from './register/http.service';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
@@ -34,15 +37,18 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     DownloadComponent,
     SunCityComponent,
     Win8Component,
-    ContactUsComponent
+    ContactUsComponent,
+    RegisterComponent,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    ReactiveFormsModule,
     routing
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

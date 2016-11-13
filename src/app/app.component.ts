@@ -9,5 +9,5 @@ import { FooterComponent } from './footer/footer.component';
   styleUrls: ['./app.component.font-awesome.min.css','./app.component.style.min.css', './app.component.main.default.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  
 }

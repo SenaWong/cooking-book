@@ -1,0 +1,29 @@
+<div class='container'>
+  <div class='product' style='height: 650px;'>
+    <h1>Registration</h1>
+    <p>Our customer service representative will assist in opening an account for you the casino of your choice.</p>
+    <div class='full'>
+
+      <form #f='ngForm'
+          (ngSubmit)="onSubmit(name.value, number.value)" 
+          method='post'>
+
+
+          <p class='content'>Name :</p>
+          <input type='text' class='result' id='name' placeholder='Example: Jackie Chan' #name>
+
+          <p class='content'>Phone Number : <span style='color:red'>*</span></p>
+          <select class='result' style='width:30%' name='country' required>
+              <option value='Malaysia'>+60 (MY)</option>
+              <option value='Indonesia'>+62 (ID)</option>
+          </select>
+          <input type='tel' class='result' style='width:30%' id='number' placeholder='Example: 0103888557' required #number>
+      
+          <div class='button'>
+              <button class='submit' name='submit'>Register</button>
+          </div>
+
+      </form>
+    </div>
+  </div>
+</div>

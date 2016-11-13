@@ -10,6 +10,8 @@ import { DownloadComponent } from './download/download.component';
 import { SunCityComponent } from './sun-city/sun-city.component';
 import { Win8Component } from './3win8/3win8.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { RegisterComponent } from './register/register.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 const appRoutes: Routes = [
     {
@@ -51,6 +53,14 @@ const appRoutes: Routes = [
 	{
 		path: 'contactus',
 		component: ContactUsComponent
+	},
+	{
+		path: 'register',
+		component: RegisterComponent
+	},
+	{
+		path: 'thankyou',
+		component: ThankYouComponent
 	}
 ];
 
